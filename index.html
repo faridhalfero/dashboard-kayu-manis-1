@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Geo Andalas – Hemat dan Akurat</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.2.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="text-gray-900">
+  <!-- Video Background -->
+  <div class="relative h-screen overflow-hidden">
+    <video autoplay muted loop class="absolute inset-0 w-full h-full object-cover">
+      <source src="video/aerial.mp4" type="video/mp4">
+    </video>
+    <div class="relative z-10 flex flex-col items-center justify-center h-full bg-black bg-opacity-50">
+      <h1 class="text-5xl font-bold text-white">Geo Andalas</h1>
+      <p class="text-xl text-gray-200 mt-2">Hemat dan Akurat</p>
+    </div>
+  </div>
+
+  <!-- Layanan -->
+  <section id="layanan" class="py-12 bg-gray-100">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-semibold mb-6">Layanan Kami</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 shadow rounded">
+          <h3 class="text-xl font-bold">Pemetaan Drone</h3>
+          <p class="mt-2">Layanan pemetaan udara presisi dengan data GeoTIFF & orthomosaic.</p>
+        </div>
+        <div class="bg-white p-6 shadow rounded">
+          <h3 class="text-xl font-bold">Monitoring Infrastruktur</h3>
+          <p class="mt-2">Pantau proyek dengan drone secara berkala dan akurat.</p>
+        </div>
+        <div class="bg-white p-6 shadow rounded">
+          <h3 class="text-xl font-bold">Analisis Data GIS</h3>
+          <p class="mt-2">Analisis dan interpretasi data pemetaan dengan perangkat lunak GIS.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeri -->
+  <section id="galeri" class="py-12">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-semibold mb-6">Galeri Proyek</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <img src="assets/img/proyek1.jpg" alt="Proyek 1" class="w-full h-48 object-cover rounded">
+        <img src="assets/img/proyek2.jpg" alt="Proyek 2" class="w-full h-48 object-cover rounded">
+        <!-- Tambah lebih banyak -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Tentang Kami -->
+  <section id="tentang" class="py-12 bg-gray-100">
+    <div class="container mx-auto px-6 max-w-prose">
+      <h2 class="text-3xl font-semibold mb-4">Tentang Geo Andalas</h2>
+      <p>Geo Andalas adalah perusahaan layanan pemetaan dan survei udara yang menggabungkan teknologi drone modern dengan metode yang hemat biaya namun tetap akurat. Kami melayani proyek pertanian, konstruksi, dan pemetaan lingkungan.</p>
+    </div>
+  </section>
+  
+  <!-- Kontak -->
+  <footer class="py-8 bg-white">
+    <div class="container mx-auto px-6 text-center">
+      <h3 class="text-2xl font-bold mb-4">Hubungi Kami</h3>
+      <p class="mb-2">Email: info@geoandalas.com</p>
+      <a href="https://wa.me/628123456789" class="inline-block bg-green-500 text-white px-6 py-3 rounded hover:bg-green-600">WhatsApp</a>
+    </div>
+  </footer>
+</body>
+</html>
